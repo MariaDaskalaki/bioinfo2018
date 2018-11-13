@@ -1,0 +1,5 @@
+#! /bin/bash
+
+
+#ls in al list, find all lines tha start with a '-', word count
+ls -l | grep '^-' | wc -l
